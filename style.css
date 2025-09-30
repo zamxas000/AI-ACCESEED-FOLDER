@@ -1,21 +1,13 @@
 body {
-    background: #222;
-    color: #fff;
     font-family: Arial, sans-serif;
+    background: #f0f0f0;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    text-align: center;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-top: 40px;
-}
-
-canvas {
-    border: 2px solid #fff;
+#sketch-container {
+    display: inline-block;
     margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
